@@ -31,7 +31,7 @@ public abstract class AbstractGraphvizEngine implements GraphvizEngine {
     protected static final Pattern IMAGE_ATTR = Pattern.compile("\"?image\"?\\s*=\\s*\"(.*?)\"");
 
     private final boolean sync;
-    protected int timeout = 10000;
+    protected int timeout = 120000;
 
     protected AbstractGraphvizEngine(boolean sync) {
         this.sync = sync;
