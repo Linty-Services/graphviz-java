@@ -3,3 +3,7 @@
 target/
 node_modules/
 node/
+
+example/
+package-lock.json
+release_commit.txt
